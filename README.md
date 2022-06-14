@@ -197,6 +197,7 @@ The operators `&&` and `||` have equal precedence, followed by `;`.
 ### Builtin Commands
 
 #### cd
+
   * Usage: `cd [DIRECTORY]`
   * Changes the current directory of the process to `DIRECTORY`.
   * If no argument is given, the command is interpreted as `cd $HOME`.
