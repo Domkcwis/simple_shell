@@ -232,6 +232,7 @@ $ exit
 ```
 
 #### env
+
   * Usage: `env`
   * Prints the current environment.
 
