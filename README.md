@@ -219,6 +219,7 @@ $ cd ../
 ```
 
 #### exit
+
   * Usage: `exit [STATUS]`
   * Exits the shell.
   * The `STATUS` argument is the integer used to exit the shell.
