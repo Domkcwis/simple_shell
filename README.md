@@ -169,6 +169,7 @@ $ echo "echo 'hello' ; echo 'world'" | ./sodash
 ```
 
 #### && - AND logical operator
+
 `command1 && command2`: `command2` is executed if, and only if, `command1` returns an exit status of zero.
 
 Example:
