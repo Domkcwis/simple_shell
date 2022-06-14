@@ -134,6 +134,7 @@ $ echo "echo $?" | ./sodash
 ```
 
 #### $$
+
 The second `$` is substitued with the current process ID.
 
 Example:
