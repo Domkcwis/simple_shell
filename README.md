@@ -245,6 +245,7 @@ NVM_DIR=/home/vagrant/.nvm
 ```
 
 #### setenv
+
   * Usage: `setenv [VARIABLE] [VALUE]`
   * Initializes a new environment variable, or modifies an existing one.
   * Upon failure, prints a message to `stderr`.
