@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
+  <img src="https://alx-intranet.hbtn.io/" alt="Alx logo">
 </p>
 
 # Simple Shell project 0x16.c - Sodash -
@@ -23,8 +23,8 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o sodash
 
 Example:
 ```
-$ echo "echo 'holberton'" | ./sodash
-'holberton'
+$ echo "echo 'main'" | ./sodash
+'main'
 $
 ```
 
@@ -41,9 +41,9 @@ If a command line argument is invoked, **sodash** will take that first argument 
 Example:
 ```
 $ cat text
-echo 'holberton'
+echo 'hmain'
 $ ./sodash text
-'holberton'
+'main'
 $
 ```
 
@@ -64,7 +64,7 @@ The current working directory as set by the **cd** command.
 
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/main/simple_shell
 ```
 
 #### OLDPWD
@@ -72,7 +72,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./sodash
-/home/vagrant/holberton/bog-062019-test_suite
+/home/vagrant/main/bog-062019-test_suite
 ```
 
 #### PATH
@@ -119,7 +119,7 @@ $ ./sodash
 Example:
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/main/simple_shell
 ```
 
 #### $?
@@ -146,8 +146,8 @@ $ echo "echo $$" | ./sodash
 
 Example:
 ```
-$ echo "echo 'holberton' #this will be ignored!" | ./sodash
-'holberton'
+$ echo "echo 'main' #this will be ignored!" | ./sodash
+'main'
 ```
 
 ### Operators
@@ -169,11 +169,11 @@ $ echo "echo 'hello' ; echo 'world'" | ./sodash
 
 Example:
 ```
-$ echo "error! && echo 'holberton'" | ./sodash
+$ echo "error! && echo 'main'" | ./sodash
 ./shellby: 1: error!: not found
-$ echo "echo 'my name is' && echo 'holberton'" | ./sodash
+$ echo "echo 'my name is' && echo 'main'" | ./sodash
 'my name is'
-'holberton'
+'main'
 ```
 
 #### || - OR logical operator
@@ -202,13 +202,13 @@ Example:
 ```
 $ ./sodash
 ^-^ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/main/simple_shell
 $ cd ../
 ^-^ pwd
-/home/vagrant/holberton
+/home/vagrant/main
 ^-^ cd -
 ^-^ pwd
-/home/vagrant/holberton/simple_shell
+/home/vagrant/main/simple_shell
 ```
 
 #### exit
@@ -243,9 +243,9 @@ NVM_DIR=/home/vagrant/.nvm
 Example:
 ```
 $ ./sodash
-$ setenv NAME Holberton
+$ setenv NAME Main
 $ echo $NAME
-Holberton
+Main
 ```
 
 #### unsetenv
@@ -256,7 +256,7 @@ Holberton
 Example:
 ```
 $ ./sodash
-$ setenv NAME Holberton
+$ setenv NAME Main
 $ unsetenv NAME
 $ echo $NAME
 
@@ -265,9 +265,9 @@ $
 
 ## Authors & Copyrights
 
-* Luis chaparro <[luischaparroc](https://github.com/luischaparroc)>
-* Edward Ortiz <[edward0rtiz](https://github.com/edward0rtiz)>
+* Akpa, Wisdom Kenechukwu <[Domkcwis](https://github.com/Domkcwis)>
+* Reginald Shawn Annan <[rsannan](https://github.com/rsannan)>
 
 ## More information
 
-**Sodash** is a simple shell unix command interpreter that is part of the holberton low level programming module at Holberton School and is intended to emulate the basics **sh** shell. All the information given in this README is based on the **sodash** and **bash** man (1) pages.
+**Sodash** is a simple shell unix command interpreter that is part of the alx low level programming module at ALX School and is intended to emulate the basics **sh** shell. All the information given in this README is based on the **sodash** and **bash** man (1) pages.
