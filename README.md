@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://alx-intranet.hbtn.io/" alt="Alx logo">
-</p>
-
 # Simple Shell project 0x16.c - Sodash -
 
 This is a simple UNIX command interpreter based on bash and Sh.
