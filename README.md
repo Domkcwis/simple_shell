@@ -113,6 +113,7 @@ $ ./sodash
 **sodash** interprets the `$` character for variable replacement.
 
 #### $ENV_VARIABLE
+
 `ENV_VARIABLE` is substituted with its value.
 
 Example:
