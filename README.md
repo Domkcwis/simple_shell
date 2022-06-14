@@ -56,6 +56,7 @@ $ echo "echo $HOME" | ./sodash
 ```
 
 #### PWD
+
 The current working directory as set by the **cd** command.
 
 ```
