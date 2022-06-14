@@ -157,6 +157,7 @@ $ echo "echo 'main' #this will be ignored!" | ./sodash
 **sodash** specially interprets the following operator characters:
 
 #### ; - Command separator
+
 Commands separated by a `;` are executed sequentially.
 
 Example:
