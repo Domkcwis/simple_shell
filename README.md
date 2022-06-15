@@ -142,7 +142,7 @@ $ echo "echo $$" | ./sodash
 
 Example:
 ```
-$ echo "echo 'holberton' #this will be ignored!" | ./sodash
+$ echo "echo 'main' #this will be ignored!" | ./sodash
 'main'
 ```
 
@@ -266,4 +266,4 @@ $
 
 ## More information
 
-**Sodash** is a simple shell unix command interpreter that is part of the holberton low level programming module at Holberton School and is intended to emulate the basics **sh** shell. All the information given in this README is based on the **sodash** and **bash** man (1) pages.
+**Sodash** is a simple shell unix command interpreter that is part of the alx low level programming module at ALXSchool and is intended to emulate the basics **sh** shell. All the information given in this README is based on the **sodash** and **bash** man (1) pages.
