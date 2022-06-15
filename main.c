@@ -1,10 +1,6 @@
 #include "main.h"
 
 /**
-*Writing a beautiful code that passes the Betty checks.
-*/
-
-/**
  * free_data - frees data structure
  *
  * @datash: data structure
